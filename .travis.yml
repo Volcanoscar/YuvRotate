@@ -1,7 +1,6 @@
 language: android
 dist: trusty
 sudo: required
-jdk: oraclejdk8
 
 before_cache:
  
