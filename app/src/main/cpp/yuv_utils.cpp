@@ -19,7 +19,6 @@ Java_com_volcanoscar_yuvutil_YuvUtilsJni_stringFromJNI(
 extern "C" JNIEXPORT void JNICALL
 Java_com_volcanoscar_yuvutil_YuvUtilsJni_createAssetManager(JNIEnv *env, jclass type, jobject assetManager) {
     AAssetManager* mgr = AAssetManager_fromJava(env, assetManager);
-    assert(mgr);
     setAssetManager(mgr);
 }
 
